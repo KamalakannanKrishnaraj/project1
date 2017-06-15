@@ -1,0 +1,39 @@
+<html ng-app="fancyMonk">
+
+    <head>
+        <!-- load angular via CDN -->
+        <script src="https://code.angularjs.org/1.5.0-rc.1/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.0-rc.1/angular-route.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.1/angular-animate.js"></script>
+        <script src="https://code.angularjs.org/1.5.1/angular-sanitize.js"></script>
+        <!--load the angular bootstrap-->
+        <script src="ui-bootstrap-tpls-2.5.0.min.js"></script>
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://mbenford.github.io/ngTagsInput/css/ng-tags-input.min.css" />
+        <link rel="stylesheet" href="http://mbenford.github.io/ngTagsInput/css/ng-tags-input.min.css" />
+        <!--load the css -->
+        <link rel="stylesheet" type="text/css" href="/CSS/home.css" />
+        <!--load the script file-->
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+
+            <div class="topnav">
+                <ul>
+                    <li class="icon"><img class="span-logo" src="icon.png" ></li>
+                    <li><a href="/contact" style="float:right">Contact</a></li>
+                    <li><a href="/forRestaurant" style="float:right">For Restaurants</a></li>
+                    <li><a href="/forBusiness" style="float:right">For Business</a></li>
+                </ul>
+            </div>
+            
+            <base href="/">
+            <!--This is to bind the partial templates to the current page-->
+                <div ng-view></div>
+
+    </body>
+
+</html>

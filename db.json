@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": "2",
+      "username": "kamal@gmail.com",
+      "password": "kamal"
+    },
+    {
+      "id": "3",
+      "username": "kannan@gmail.com",
+      "password": "kannan"
+    }
+  ],
+  "userDetails": [
+    {
+      "id": "1",
+      "name": "kamal",
+      "mail_id": "kamal@gmail.com",
+      "password": "kamal"
+    },
+    {
+      "id": "2",
+      "name": "kannan",
+      "mail_id": "kannan@gmail.com",
+      "password": "kannan"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "The Ritz-Carlton",
+      "address": "99, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025",
+      "rating": "4.5",
+      "image": "../theritz.png"
+    },
+    {
+      "id": "2",
+      "name": "Rim Naam - The Oberoi",
+      "address": "The Oberoi, 37-39, MG Road, Yellappa Garden, Yellappa Chetty Layout, Sivanchetti Gardens, M.G.Road, Bangalore 560001",
+      "rating": "4.5",
+      "image": "../rim.png"
+    },
+    {
+      "id": "3",
+      "name": "Graze Restaurant",
+      "address": "41/3, Vivanta by Taj M G Road, Mahatma Gandhi Road, Bengaluru, Karnataka 560001",
+      "rating": "4.1",
+      "image": "../graze.png"
+    }
+  ],
+  "addedRestaurant": [
+    {
+      "id": 1,
+      "username": "kamal",
+      "restaurantDetails": {
+        "name": "Fresh Menu",
+        "location": "xxx,\nyyy,\nzzz.",
+        "menuType": "Veg",
+        "cuisines": [
+          "North-Indian",
+          "Chinese"
+        ],
+        "tableCount": 1
+      },
+      "menuDetails": [
+        {
+          "menuTaxonomy": "Veg",
+          "taxons1": "starter",
+          "taxons2": "menuItem",
+          "taxonsPrice": "45",
+          "foodDescription": "Hot and sour soup"
+        }
+      ],
+      "tableDetails": [
+        {
+          "tableId": 1,
+          "tableName": "1",
+          "tableChairsCount": 2
+        }
+      ]
+    }
+  ]
+}
